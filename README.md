@@ -1,4 +1,4 @@
-# Porfolio ASIR - Carlos Parriego Urbano
+# Porfolio ASIR - Carlos Parriego Urbano (v14)
 
 Versión actualizada del porfolio personal de Carlos Parriego Urbano.
 
@@ -25,3 +25,7 @@ Versión actualizada del porfolio personal de Carlos Parriego Urbano.
 
 ## v16
 - Se amplía el apartado de especialización con un bloque de aplicaciones y tecnologías utilizadas, incluyendo iconos para Visual Studio Code, Cisco Packet Tracer, VirtualBox, pgAdmin, HTML, CSS, JavaScript y GitHub.
+
+
+## v17
+- Se corrigen los iconos rotos de Visual Studio Code y pgAdmin usando iconos locales para evitar fallos de carga.

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="pgAdmin">
+  <rect width="64" height="64" rx="14" fill="#EDF6FF"/>
+  <path d="M16 38c0-9.4 7.6-17 17-17h2.5C42.4 21 48 26.6 48 33.5S42.4 46 35.5 46H31v6h-8V38h-7Z" fill="#336791"/>
+  <path d="M31 28h5c3 0 5.5 2.5 5.5 5.5S39 39 36 39h-5V28Z" fill="#fff" opacity=".92"/>
+  <circle cx="39.5" cy="31.5" r="1.6" fill="#336791"/>
+  <path d="M16 38h7v8h-7c-2.2 0-4-1.8-4-4s1.8-4 4-4Z" fill="#2B587A"/>
+  <text x="32" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="700" fill="#336791">pgAdmin</text>
+</svg>
