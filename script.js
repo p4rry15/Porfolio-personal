@@ -119,15 +119,16 @@ aboutTabs.forEach((tab) => {
 });
 
 const areaData = {
-  sistemas: ['01', 'Sistemas operativos', 'Manejo de entornos Windows Server y distribuciones Linux/Ubuntu con interés en instalación, administración y mantenimiento.'],
-  redes: ['02', 'Redes', 'Configuración de redes locales, direccionamiento IPv4, subnetting, VLANs y fundamentos del modelo TCP/IP.'],
-  ciberseguridad: ['03', 'Ciberseguridad', 'Área que más me atrae de cara al futuro, especialmente desde la base de sistemas, redes, buenas prácticas y protección de entornos.'],
-  virtualizacion: ['04', 'Virtualización', 'Uso de Oracle VM VirtualBox para desplegar máquinas virtuales y crear laboratorios de aprendizaje y pruebas.'],
-  bases: ['05', 'Bases de datos', 'Conocimientos de SQL, MySQL y PGAdmin para trabajar consultas básicas y organización de datos.'],
-  hardware: ['06', 'Hardware y soporte', 'Montaje, mantenimiento de equipos y resolución de incidencias básicas relacionadas con hardware y funcionamiento del sistema.']
+  sistemas: ['01', '🖥️', 'Sistemas operativos', 'Manejo de entornos Windows Server y distribuciones Linux/Ubuntu con interés en instalación, administración y mantenimiento.'],
+  redes: ['02', '🌐', 'Redes', 'Configuración de redes locales, direccionamiento IPv4, subnetting, VLANs y fundamentos del modelo TCP/IP.'],
+  ciberseguridad: ['03', '🔐', 'Ciberseguridad', 'Área que más me atrae de cara al futuro, especialmente desde la base de sistemas, redes, buenas prácticas y protección de entornos.'],
+  virtualizacion: ['04', '🧱', 'Virtualización', 'Uso de Oracle VM VirtualBox para desplegar máquinas virtuales y crear laboratorios de aprendizaje y pruebas.'],
+  bases: ['05', '🗄️', 'Bases de datos', 'Conocimientos de SQL, MySQL y PGAdmin para trabajar consultas básicas y organización de datos.'],
+  hardware: ['06', '🛠️', 'Hardware y soporte', 'Montaje, mantenimiento de equipos y resolución de incidencias básicas relacionadas con hardware y funcionamiento del sistema.']
 };
 const areaChips = document.querySelectorAll('[data-area]');
 const areaNumber = document.querySelector('#area-number');
+const areaIcon = document.querySelector('#area-icon');
 const areaTitle = document.querySelector('#area-title');
 const areaText = document.querySelector('#area-text');
 areaChips.forEach((chip) => {
@@ -136,8 +137,9 @@ areaChips.forEach((chip) => {
     if (!data) return;
     areaChips.forEach((item) => item.classList.toggle('active', item === chip));
     areaNumber.textContent = data[0];
-    areaTitle.textContent = data[1];
-    areaText.textContent = data[2];
+    if (areaIcon) areaIcon.textContent = data[1];
+    areaTitle.textContent = data[2];
+    areaText.textContent = data[3];
   });
 });
 

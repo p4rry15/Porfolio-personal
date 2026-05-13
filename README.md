@@ -17,3 +17,7 @@ Versión actualizada del porfolio personal de Carlos Parriego Urbano.
 - Email: `parrycpu@gmail.com`
 - GitHub: `https://github.com/p4rry15`
 - LinkedIn: `https://www.linkedin.com/in/carlos-parriego-urbano-23b2453a0/`
+
+
+## v15
+- Se añaden iconos en el apartado de especialización para que cada área tenga más identidad visual, sin tocar el resto de la estructura.
