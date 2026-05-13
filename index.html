@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Porfolio personal de Carlos Parriego Urbano, estudiante de ASIR con interés en sistemas, redes, ciberseguridad y soporte técnico.">
+  <meta name="keywords" content="Carlos Parriego Urbano, ASIR, porfolio, sistemas, redes, ciberseguridad, Prometeo FP, Windows Server, Linux, SQL, 3dAura">
+  <meta name="author" content="Carlos Parriego Urbano">
+  <title>Carlos Parriego Urbano | Porfolio ASIR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="inicio">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">CPU</span>
+        <span class="brand-copy">
+          <strong>Carlos Parriego Urbano</strong>
+          <small>Porfolio ASIR</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="menu-principal">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#especializacion">Especialización</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#entorno">Entorno</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" aria-label="Inicio del porfolio">
+      <div class="hero-grid reveal">
+        <div class="hero-main">
+          <p class="hero-eyebrow">Estudiante de informática · ASIR</p>
+          <h1>Carlos Parriego Urbano</h1>
+          <p class="hero-role">Administración de Sistemas · Redes · Ciberseguridad</p>
+          <p class="hero-text">
+            Estoy construyendo un perfil técnico orientado a sistemas, redes, ciberseguridad y soporte. Mi objetivo es seguir aprendiendo en entornos reales, demostrar una forma de trabajar seria y convertir lo que aprendo en resultados útiles.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyecto destacado</a>
+            <a class="btn btn-secondary" href="assets/docs/cv-carlos-parriego-urbano.pdf" target="_blank" rel="noopener">Abrir CV</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Resumen rápido del perfil">
+            <article><strong data-count="6">0</strong><span>áreas técnicas</span></article>
+            <article><strong data-count="10">0</strong><span>herramientas</span></article>
+            <article><strong data-count="1">0</strong><span>proyecto real</span></article>
+          </div>
+        </div>
+
+        <aside class="hero-side" aria-label="Resumen visual de Carlos">
+          <div class="portrait-card">
+            <img src="assets/images/carlos-hero.jpg" alt="Fotografía profesional de Carlos Parriego Urbano">
+          </div>
+
+          <div class="console-card" aria-label="Panel de estado del perfil ASIR">
+            <div class="console-topbar"><span></span><span></span><span></span><strong>asir-status</strong></div>
+            <div class="console-body">
+              <p class="console-line">&gt; <span id="console-type"></span><span class="console-cursor"></span></p>
+              <ul class="console-list">
+                <li><span>centro</span><strong>Prometeo FP</strong></li>
+                <li><span>perfil</span><strong>ASIR junior</strong></li>
+                <li><span>foco</span><strong>Sistemas · Redes · Web</strong></li>
+                <li><span>proyecto</span><strong>3dAura</strong></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-shell section-alt-1" id="sobre-mi">
+      <div class="section-heading reveal">
+        <div class="section-meta">
+          <p class="section-index">01</p>
+          <p class="section-label">Sobre mí</p>
+        </div>
+        <div class="section-copy">
+          <h2>Perfil profesional y lado personal</h2>
+          <p>Un perfil profesional para conocer mi parte técnica y una sección más personal para mostrar mejor quién soy.</p>
+        </div>
+      </div>
+
+      <div class="about-switch reveal" aria-label="Selector del apartado sobre mí">
+        <button class="about-tab active" type="button" data-about-tab="formal">Perfil profesional</button>
+        <button class="about-tab" type="button" data-about-tab="personal">Conóceme mejor</button>
+      </div>
+
+      <div class="about-panel active" data-about-panel="formal">
+        <div class="formal-layout">
+          <article class="panel reveal">
+            <h3>Presentación profesional</h3>
+            <p>
+              Soy Carlos Parriego Urbano y actualmente me estoy formando en el área de la informática, especialmente dentro de ASIR. Me considero una persona responsable, comprometida, resolutiva y con capacidad de adaptación.
+            </p>
+            <p>
+              Me gusta aprender de forma práctica, entender el porqué de cada configuración, instalación o proceso técnico y aplicar esos conocimientos en entornos reales o proyectos propios.
+            </p>
+          </article>
+
+          <aside class="about-scoreboard reveal" aria-label="Resumen de perfil">
+            <article><span>Perfil</span><strong>Estudiante ASIR</strong></article>
+            <article><span>Intereses</span><strong>Sistemas · Redes · Ciberseguridad</strong></article>
+            <article><span>Forma de trabajar</span><strong>Constancia · práctica · mejora continua</strong></article>
+          </aside>
+        </div>
+
+        <div class="strength-strip reveal">
+          <span>Responsable</span>
+          <span>Comprometido</span>
+          <span>Resolutivo</span>
+          <span>Adaptable</span>
+          <span>Trabajo en equipo</span>
+          <span>Curiosidad</span>
+        </div>
+      </div>
+
+      <div class="about-panel" data-about-panel="personal">
+        <div class="personal-layout">
+          <article class="panel reveal">
+            <h3>Más allá de lo técnico</h3>
+            <p>
+              Aparte de la informática y de mis proyectos, me gusta desarrollarme continuamente como persona. Valoro ser innovador, mantenerme activo y no quedarme quieto, tanto a nivel de conocimientos como a nivel personal y psicológico.
+            </p>
+            <p>
+              También me gusta pasar tiempo con mis seres queridos, desconectar cuando lo necesito y dedicar momentos a mí mismo y a mi soledad. Creo que ese equilibrio me ayuda a conocerme mejor, mantener una mentalidad más clara y afrontar nuevos retos con más constancia.
+            </p>
+          </article>
+
+        </div>
+
+        <div class="hobby-gallery reveal" aria-label="Galería personal de hobbies">
+          <button class="gallery-item wide" type="button" data-gallery-src="assets/images/hobby-toledo.jpeg" data-gallery-title="Viajes y experiencias">
+            <img src="assets/images/hobby-toledo.jpeg" alt="Fotografía de Toledo relacionada con viajes y experiencias">
+            <span>Viajes</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-src="assets/images/hobby-pesca.jpeg" data-gallery-title="Pesca y desconexión">
+            <img src="assets/images/hobby-pesca.jpeg" alt="Fotografía relacionada con pesca">
+            <span>Pesca</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-src="assets/images/hobby-playa.jpeg" data-gallery-title="Playa y momentos de desconexión">
+            <img src="assets/images/hobby-playa.jpeg" alt="Fotografía de playa">
+            <span>Playa</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-src="assets/images/hobby-atardecer.jpeg" data-gallery-title="Atardeceres">
+            <img src="assets/images/hobby-atardecer.jpeg" alt="Fotografía de un atardecer">
+            <span>Atardeceres</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell" id="formacion">
+      <div class="section-heading reveal">
+        <div class="section-meta"><p class="section-index">02</p><p class="section-label">Formación</p></div>
+        <div class="section-copy"><h2>Mi recorrido académico actual</h2><p>Una visión rápida de la base desde la que estoy construyendo mi perfil técnico.</p></div>
+      </div>
+
+      <div class="timeline reveal">
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">2025 · actualidad</p><h3>Administración de Sistemas Informáticos en Red</h3><p class="timeline-place">Prometeo FP</p><p>Formación enfocada en sistemas, redes, virtualización, bases de datos, hardware y entornos técnicos.</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">2025 · actualidad</p><h3>Máster en Ciberseguridad</h3><p class="timeline-place">Prometeo FP</p><p>Itinerario complementario orientado al desarrollo web y a la especialización en ciberseguridad.</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">2023 · 2025</p><h3>Bachillerato</h3><p class="timeline-place">Colegio Lagomar</p><p>Etapa previa en la que desarrollé constancia, organización y una base para orientarme hacia el ámbito tecnológico.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section-shell section-alt-2" id="especializacion">
+      <div class="section-heading reveal">
+        <div class="section-meta"><p class="section-index">03</p><p class="section-label">Especialización</p></div>
+        <div class="section-copy"><h2>Áreas en las que me estoy formando</h2><p>Estas son las áreas principales que estoy trabajando actualmente.</p></div>
+      </div>
+
+      <div class="area-orbit reveal" aria-label="Áreas principales de ASIR">
+        <button class="area-chip active" type="button" data-area="sistemas">Sistemas</button>
+        <button class="area-chip" type="button" data-area="redes">Redes</button>
+        <button class="area-chip" type="button" data-area="ciberseguridad">Ciberseguridad</button>
+        <button class="area-chip" type="button" data-area="virtualizacion">Virtualización</button>
+        <button class="area-chip" type="button" data-area="bases">Bases de datos</button>
+        <button class="area-chip" type="button" data-area="hardware">Hardware</button>
+      </div>
+
+      <div class="area-display reveal" aria-live="polite">
+        <div>
+          <span id="area-number">01</span>
+          <h3 id="area-title">Sistemas operativos</h3>
+          <p id="area-text">Manejo de entornos Windows Server y distribuciones Linux/Ubuntu con interés en instalación, administración y mantenimiento.</p>
+        </div>
+      </div>
+
+      <div class="cards-grid compact-cards">
+        <article class="info-card accent-a reveal"><h3>Sistemas operativos</h3><p>Windows Server y Linux/Ubuntu.</p></article>
+        <article class="info-card accent-b reveal"><h3>Redes</h3><p>LAN, IPv4, subnetting, VLANs y TCP/IP.</p></article>
+        <article class="info-card accent-c reveal"><h3>Ciberseguridad</h3><p>Buenas prácticas y protección de entornos.</p></article>
+        <article class="info-card accent-d reveal"><h3>Virtualización</h3><p>Laboratorios con Oracle VM VirtualBox.</p></article>
+        <article class="info-card accent-e reveal"><h3>Bases de datos</h3><p>SQL, MySQL y PGAdmin.</p></article>
+        <article class="info-card accent-f reveal"><h3>Hardware y soporte</h3><p>Montaje, mantenimiento e incidencias básicas.</p></article>
+      </div>
+    </section>
+
+    <section class="section-shell section-projects" id="proyectos">
+      <div class="section-heading reveal">
+        <div class="section-meta"><p class="section-index">04</p><p class="section-label">Proyecto destacado</p></div>
+        <div class="section-copy"><h2>3dAura</h2><p>Proyecto de impresión 3D y presencia digital donde trabajo web, catálogo, diseño responsive, contenido, promociones interactivas y formularios.</p></div>
+      </div>
+
+      <div class="project-showcase reveal">
+        <figure class="project-showcase-media"><img src="assets/images/aura3d-cover.png" alt="Imagen de presentación del proyecto 3dAura"></figure>
+        <div class="project-showcase-copy">
+          <p class="project-overline">Proyecto real · impresión 3D y web</p>
+          <h3>3dAura</h3>
+          <p>Dentro del proyecto he participado especialmente en la parte web, aplicando HTML, CSS y JavaScript para mejorar presentación, estructura, navegación, responsive y elementos interactivos.</p>
+          <div class="project-pill-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span><span>Netlify</span><span>GitHub</span><span>Formularios</span><span>Catálogo</span></div>
+          <div class="project-actions"><a class="btn btn-primary" href="https://3daura.store" target="_blank" rel="noopener">Visitar 3dAura</a></div>
+        </div>
+      </div>
+
+      <div class="project-details-grid">
+        <article class="panel reveal"><h3>Qué se trabaja</h3><ul class="detail-list"><li>Diseño y mejora visual de la web.</li><li>Organización de catálogo y secciones.</li><li>Adaptación responsive.</li><li>Promociones interactivas.</li><li>Formularios y presencia digital.</li></ul></article>
+        <article class="panel reveal"><h3>Tecnologías</h3><div class="tech-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span><span>Netlify</span><span>Responsive Design</span><span>Formularios</span><span>Catálogo Web</span></div></article>
+        <article class="panel reveal"><h3>Aprendizaje aplicado</h3><ul class="detail-list"><li>Desarrollo web aplicado a un proyecto real.</li><li>Trabajo con estructura, diseño e interacción.</li><li>Mejora de experiencia en distintos dispositivos.</li><li>Mantenimiento de una web en evolución.</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section-shell section-alt-1" id="entorno">
+      <div class="section-heading reveal">
+        <div class="section-meta"><p class="section-index">05</p><p class="section-label">Entorno</p></div>
+        <div class="section-copy"><h2>El centro donde me estoy especializando</h2><p>Imágenes reales del centro y del aula para reflejar el contexto en el que estoy creciendo profesionalmente.</p></div>
+      </div>
+
+      <div class="environment-grid">
+        <figure class="media-card media-tall reveal"><img src="assets/images/centro-prometeo.webp" alt="Fotografía del exterior del centro Prometeo FP"><figcaption><strong>Prometeo FP</strong><span>Centro de formación donde curso ASIR y desarrollo mi perfil técnico.</span></figcaption></figure>
+        <div class="environment-side">
+          <article class="panel reveal"><h3>Un entorno enfocado a la informática</h3><p>El porfolio también muestra el entorno donde me preparo, aportando cercanía, autenticidad e imagen profesional.</p><div class="skill-pills"><span>ASIR</span><span>Prometeo FP</span><span>Aprendizaje práctico</span><span>Entorno técnico</span></div></article>
+          <figure class="media-card reveal"><img src="assets/images/aula-prometeo.jpg" alt="Fotografía del aula o laboratorio donde se imparten clases en Prometeo FP"><figcaption><strong>Aula / laboratorio</strong><span>Espacio de aprendizaje relacionado con sistemas, redes y soporte técnico.</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell contact-section" id="contacto">
+      <div class="contact-card contact-card-featured reveal">
+        <div class="contact-intro">
+          <div class="section-meta section-meta-inline"><p class="section-index">06</p><p class="section-label">Contacto</p></div>
+          <h2>¿Quieres conocer mejor mi perfil?</h2>
+          <p>
+            Aquí tienes las formas principales de contactar conmigo, consultar mi CV y ver mi actividad profesional.
+            He dejado esta zona más visible para que sea fácil acceder a todo lo importante.
+          </p>
+          <div class="contact-status"><span></span> Disponible para seguir aprendiendo y crecer profesionalmente</div>
+        </div>
+
+        <div class="contact-action-grid" aria-label="Accesos principales de contacto">
+          <button class="contact-action contact-email" type="button" data-copy-email="parrycpu@gmail.com">
+            <span class="contact-icon">@</span>
+            <span>
+              <strong>Correo</strong>
+              <small>parrycpu@gmail.com</small>
+            </span>
+          </button>
+
+          <a class="contact-action" href="assets/docs/cv-carlos-parriego-urbano.pdf" target="_blank" rel="noopener">
+            <span class="contact-icon">CV</span>
+            <span>
+              <strong>Currículum</strong>
+              <small>Abrir CV en PDF</small>
+            </span>
+          </a>
+
+          <a class="contact-action" href="https://github.com/p4rry15" target="_blank" rel="noopener">
+            <span class="contact-icon icon-svg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.8-.25.8-.57v-2.01c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.7 1.26 3.36.97.1-.75.4-1.26.72-1.56-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.28 1.19-3.08-.12-.29-.51-1.47.11-3.06 0 0 .98-.31 3.2 1.18A11.1 11.1 0 0 1 12 6.1c.98 0 1.96.13 2.88.38 2.22-1.49 3.2-1.18 3.2-1.18.62 1.59.23 2.77.11 3.06.74.8 1.19 1.82 1.19 3.08 0 4.43-2.69 5.4-5.26 5.69.41.36.77 1.07.77 2.16v3.2c0 .32.21.68.8.57A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            </span>
+            <span>
+              <strong>GitHub</strong>
+              <small>github.com/p4rry15</small>
+            </span>
+          </a>
+
+          <a class="contact-action" href="https://www.linkedin.com/in/carlos-parriego-urbano-23b2453a0/" target="_blank" rel="noopener">
+            <span class="contact-icon icon-svg">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.48 2.48 0 1 0 5 8.46a2.48 2.48 0 0 0-.02-4.96ZM3 9h4v12H3Zm7 0h3.83v1.64h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.55c0-1.32-.03-3.03-1.85-3.03-1.85 0-2.13 1.45-2.13 2.94V21h-4Z"/></svg>
+            </span>
+            <span>
+              <strong>LinkedIn</strong>
+              <small>Perfil profesional</small>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="current-year"></span> Carlos Parriego Urbano · Porfolio personal ASIR</p>
+    <div class="footer-socials"><a href="https://github.com/p4rry15" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/carlos-parriego-urbano-23b2453a0/" target="_blank" rel="noopener">LinkedIn</a></div>
+  </footer>
+
+  <div class="gallery-modal" aria-hidden="true" role="dialog" aria-label="Vista ampliada de imagen">
+    <button class="gallery-close" type="button" aria-label="Cerrar galería">×</button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+
+  <button class="back-to-top" type="button" aria-label="Volver arriba">↑</button>
+  <div class="toast" role="status" aria-live="polite">Correo copiado al portapapeles</div>
+  <script src="script.js"></script>
+</body>
+</html>
