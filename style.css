@@ -778,3 +778,33 @@ body.pointer-active .cursor-glow {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* v18 - mejoras visuales en apartado 3DAURA */
+.project-showcase-copy h3,
+.section-projects .section-copy h2 {
+  letter-spacing: 0.02em;
+}
+.project-pill-row span,
+.tech-stack span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.project-pill-row img,
+.tech-stack img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.inline-pill-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  line-height: 1;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}

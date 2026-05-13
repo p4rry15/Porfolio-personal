@@ -29,3 +29,7 @@ Versión actualizada del porfolio personal de Carlos Parriego Urbano.
 
 ## v17
 - Se corrigen los iconos rotos de Visual Studio Code y pgAdmin usando iconos locales para evitar fallos de carga.
+
+
+## v18
+- En el apartado de 3DAURA se ponen los títulos en mayúsculas y se añaden iconos en las tecnologías y herramientas mencionadas, manteniendo el resto igual.
