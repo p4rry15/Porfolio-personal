@@ -702,3 +702,79 @@ body.pointer-active .cursor-glow {
 .area-title-row h3 {
   margin-bottom: 0;
 }
+
+
+/* v16 - herramientas y aplicaciones en especialización */
+.toolkit-panel {
+  margin-top: 22px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.82);
+  box-shadow: var(--shadow);
+}
+.toolkit-head {
+  margin-bottom: 20px;
+}
+.toolkit-head h3 {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+}
+.toolkit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.tool-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(32,77,103,0.04));
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 44px rgba(22,24,29,0.08);
+}
+.tool-icon-wrap {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.94);
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+.tool-icon-wrap img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+.tool-card h4 {
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-size: 1rem;
+}
+.tool-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+@media (max-width: 980px) {
+  .toolkit-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 680px) {
+  .toolkit-panel {
+    padding: 22px;
+  }
+  .toolkit-grid {
+    grid-template-columns: 1fr;
+  }
+}

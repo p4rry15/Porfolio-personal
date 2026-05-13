@@ -21,3 +21,7 @@ Versión actualizada del porfolio personal de Carlos Parriego Urbano.
 
 ## v15
 - Se añaden iconos en el apartado de especialización para que cada área tenga más identidad visual, sin tocar el resto de la estructura.
+
+
+## v16
+- Se amplía el apartado de especialización con un bloque de aplicaciones y tecnologías utilizadas, incluyendo iconos para Visual Studio Code, Cisco Packet Tracer, VirtualBox, pgAdmin, HTML, CSS, JavaScript y GitHub.
