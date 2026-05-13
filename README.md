@@ -1,4 +1,4 @@
-# Porfolio ASIR - Carlos Parriego Urbano (v14)
+# Porfolio ASIR - Carlos Parriego Urbano
 
 Versión actualizada del porfolio personal de Carlos Parriego Urbano.
 
